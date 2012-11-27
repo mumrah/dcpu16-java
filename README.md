@@ -2,14 +2,14 @@
 
 Python assembler, Java emulator.
 
-he basic instructions are implemented, still working on subroutines. Have yet 
+The basic instructions are implemented, still working on subroutines. Have yet 
 to look at the hardware stuff (if that's even officially spec'd out yet)
 
 ## Example - Count to 10
 
 Assembly code
 ```asm
-# count.asm
+#count.asm
         SET I, 0
 :loop   IFE I, 10
           SET PC, crash
